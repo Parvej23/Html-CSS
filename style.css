@@ -64,7 +64,7 @@
             background-color: indigo;
         }
         input:focus{
-            color: red;
+            color: hotpink;
             font-weight: 900;
             font-size: 20px;
         }
