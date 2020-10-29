@@ -51,5 +51,54 @@
         p{
             text-align: justify;
         }
+        h1{
+            color: goldenrod;
+        }
+        h1:hover{
+            color: red;
+            background-color: green;
+            width: 50%;
+            font-size: xx-large;
+        }
+        .wp:hover{
+            background-color: indigo;
+        }
+        input:focus{
+            color: red;
+            font-weight: 900;
+            font-size: 20px;
+        }
+        li:nth-child(2n+1){
+            background-color: rgb(247, 0, 255);
+            width: 20%;
+        }
+        a:visited{
+            color: blue;
+        }
+        .c:nth-child(2n)
+        {
+            background-color: chartreuse;
+            width: 20%;
+
+        }
+        .c:nth-child(2n+1)
+        {
+            background-color: white;
+        }
+        h2::before{
+            content: "❤️";
+
+        }
+        h2::after{
+            content: " Hello";
+        }
+       body{
+           counter-reset: sec;
+       }
+       h4::before{
+           counter-increment: sec;
+           content: "sec" counter(sec)":";
+       }
+
     
     </style>
