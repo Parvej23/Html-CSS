@@ -1,0 +1,55 @@
+<style>
+        h1{
+            color : red;
+            background-color: black;
+            height: 90px;
+            width: 75%;
+        }
+        p{
+            color: green;
+            font-size: 20px;
+            font-weight: 900;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #birthday{
+            color: black;
+            font-size: 40px;
+            font-weight: 900;
+            font-family: serif;
+            font-style: italic;
+            font-variant: small-caps;
+            background-color: red;
+            width: 75%;
+        }
+        img{
+            width: 50%;
+        }
+        .fr{
+            color: purple;
+        }
+        .romantic{
+            color: white;
+        }
+        .blog{
+          border: 5px solid red;
+          width: 30%;
+          height: 200px;
+          border-radius: 20px;
+          margin: 3px;
+          display: inline-block;
+          
+          
+        }
+        #exx{
+            color: black;
+            
+        }
+        h3{
+            text-align: center;
+
+        }
+        p{
+            text-align: justify;
+        }
+    
+    </style>
